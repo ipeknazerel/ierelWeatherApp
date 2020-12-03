@@ -1,0 +1,101 @@
+body {
+  font-family: "Crete Round", serif;
+}
+
+h1 {
+  color: #18a2b8;
+  font-size: 20px;
+}
+
+.degree {
+  color: #18a2b8;
+}
+
+ul {
+  font-size: 14px;
+  font-weight: lighter;
+  list-style-type: none;
+  color: #0f6370;
+  margin: 0;
+  padding: 0px;
+}
+
+.weatherApp {
+  border: 1px solid #0f6370;
+  padding: 15px;
+  margin: 0px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.SearchedCity,
+h2 {
+  font-size: 50px;
+  margin-bottom: 0px;
+  color: #18a2b8;
+}
+
+.temperature {
+  font-size: 90px;
+  color: #18a2b8;
+  line-height: 1;
+  padding-left: 10px;
+}
+
+.units {
+  font-size: 12px;
+  position: relative;
+  top: -32px;
+  padding: 0;
+  margin-left: 0;
+}
+.date {
+  text-align: left;
+  margin-left: 0px;
+  padding: 0px;
+  color: #0f6370;
+}
+
+.SearchedCity,
+p {
+  margin-top: 0px;
+  font-size: small;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  color: #18a2b8;
+}
+p {
+  text-align: center;
+  color: #0f6370;
+}
+.WeatherCards i {
+  font-size: 25px;
+  display: block;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #0f6370;
+}
+
+.SearchedCity {
+  margin-top: 20px;
+}
+
+.degree {
+  font-size: 60px;
+}
+.current {
+  font-size: 18px;
+}
+
+.fa-cloud-showers-heavy {
+  font-size: 80px;
+  margin-top: 20px;
+  color: #18a2b8;
+}
+.Celsius {
+  color: #0f6370;
+}

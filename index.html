@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/902b488116.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Crete+Round&display=swap" rel="stylesheet">
+
+    <link href="src/styles.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>
+            Weather App
+        </h1>
+
+        <hr>
+
+        <div class="weatherApp">
+
+
+
+
+            <form class="search-form" id="search-form">
+                <div class="row">
+                    <div class="col-9">
+                        <input id="city-input" type="search" class="form-control" placeholder="Enter City Name">
+                    </div>
+
+                    <div class="col-3">
+                        <input type="submit" value="Search" class="form-control btn btn-outline-info" />
+                    </div>
+
+                </div>
+
+            </form>
+
+            <div class="SearchedCity">
+
+
+                <h2 id="city">London</h2>
+
+                <ul>
+                    <li id="date">
+                        Sunday November 8th 6:48pm</li>
+                    <li class="condition" id="description">
+                        Showers
+                    </li>
+                </ul>
+
+
+
+
+                <div class="row">
+
+                    <div class="col-6">
+
+                        <i class="fas fa-cloud-showers-heavy rain float-left"></i>
+
+                        <span class="temperature" id="temp">
+                            14
+                        </span>
+                        <span class="units"> °C</span>
+
+                    </div>
+
+                    <div class="col-6">
+                        <ul>
+                            <li>
+                                Humidity: <span id="humidity">94%</span>
+                            </li>
+
+                            <li>
+                                Wind:<span id="wind"> 2mph</span>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <hr>
+
+
+                    <section class="WeatherCards">
+                        <div class="row">
+
+                            <div class="col-2">
+                                <div class="card border-info mb-3">
+                                    <div class="card-body">
+                                        <h4> Monday </h4>
+                                        <p>November 9</p>
+                                        <i class="fas fa-cloud-rain"></i>
+                                        <p class="Celsius">
+                                            16°C </br>
+                                            Rainy
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-2">
+                                <div class="card border-info mb-3">
+                                    <div class="card-body">
+                                        <h4> Tuesday </h4>
+                                        <p>November 10</p>
+                                        <i class="fas fa-cloud-rain"></i>
+                                        <p class="Celsius">
+                                            14°C </br>
+                                            Rainy
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div class="card border-info mb-3">
+                                    <div class="card-body">
+                                        <h4> Wednesday </h4>
+                                        <p>November 11</p>
+                                        <i class="fas fa-cloud"></i>
+                                        <p class="Celsius">
+                                            14°C </br>
+                                            Cloudy
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-2">
+                                <div class="card border-info mb-3">
+                                    <div class="card-body">
+                                        <h4> Thursday </h4>
+                                        <p>November 12</p>
+                                        <i class="fas fa-cloud"></i>
+                                        <p class="Celsius">
+                                            12°C </br>
+                                            Cloudy
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div class="card border-info mb-3">
+                                    <div class="card-body">
+                                        <h4> Friday </h4>
+                                        <p>November 13</p>
+                                        <i class="fas fa-cloud"></i>
+                                        <p class="Celsius">
+                                            14°C </br>
+                                            Cloudy
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div class="card border-info mb-3">
+                                    <div class="card-body">
+                                        <h4> Saturday </h4>
+                                        <p>November 14</p>
+                                        <i class="fas fa-cloud"></i>
+                                        <p class="Celsius">
+                                            14°C </br>
+                                            Cloudy
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </section>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+    </div>
+
+    <script src="src/index.js"></script>
+</body>
+
+
+
+</html>
