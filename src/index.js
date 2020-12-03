@@ -51,7 +51,7 @@ function showTemperature(response) {
   )}mph`;
   document.querySelector("#humidity").innerHTML = `${Math.round(
     response.data.main.humidity
-  )}mph`;
+  )}%`;
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
 }
