@@ -1,10 +1,13 @@
 body {
   font-family: "Crete Round", serif;
+  margin-top: 40px;
 }
 
 h1 {
   color: #18a2b8;
   font-size: 20px;
+  display: block;
+  margin-left: 250px;
 }
 
 .degree {
@@ -62,21 +65,8 @@ p {
   font-size: small;
 }
 
-h4 {
-  font-size: 20px;
-  text-align: center;
-  color: #18a2b8;
-}
 p {
   text-align: center;
-  color: #0f6370;
-}
-.WeatherCards i {
-  font-size: 25px;
-  display: block;
-  margin-left: 45px;
-  margin-bottom: 20px;
-  margin-top: 20px;
   color: #0f6370;
 }
 
@@ -98,4 +88,8 @@ p {
 }
 .Celsius {
   color: #0f6370;
+}
+
+#descriptionlist {
+  margin-top: 20px;
 }
